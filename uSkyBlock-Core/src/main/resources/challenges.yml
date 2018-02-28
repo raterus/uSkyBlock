@@ -76,18 +76,20 @@ ranks:
         lockedDisplayItem: STAINED_GLASS_PANE:7
         resetInHours: 12
         reward:
-          text: 3 leather, 20% chance to get a book
+          text: 3 leather, 20% chance to get a book, 10 diamond block
           items:
           - '334:3'
+          - '57:10'
           - '{p=0.2}340:1'
           currency: 10
           xp: 10
           commands:
           - op:effect {player} regeneration
         repeatReward:
-          text: 1 leather, 10% chance to get a book
+          text: 1 leather, 10% chance to get a book, 1 diamond block
           items:
           - '334:1'
+          - '57:1'
           - '{p=0.1}340:1'
           currency: 5
           xp: 5
